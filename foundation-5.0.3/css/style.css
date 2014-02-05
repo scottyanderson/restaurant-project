@@ -1,0 +1,17 @@
+
+.row {
+	display: inline-block;
+}
+
+.name {
+	padding-top: 10px;	
+	color: white;
+}
+
+.bulletHours {
+	list-style-type: none;
+}
+
+.nobullets {
+	list-style-type: none;
+}
