@@ -4,7 +4,7 @@
 }
 
 .name {
-	padding-top: 10px;	
+	padding-top: 10%;	
 	color: white;
 }
 
@@ -14,4 +14,22 @@
 
 .nobullets {
 	list-style-type: none;
+}
+
+.logo {
+	text-align: center;
+}
+
+.nav-items {
+	border: solid black 1px;
+	padding: 10px 0px;
+
+}
+
+.nav-item {
+	display: inline-block;
+	margin-right: 10px;
+}
+.nav-home {
+
 }
