@@ -1149,8 +1149,8 @@ meta.foundation-mq-topbar {
   overflow: hidden;
   height: 45px;
   line-height: 45px;
-  position: relative;
-  background: #333333;
+  /*position: relative;
+  background: #333333;*/
   margin-bottom: 0; }
   .top-bar ul {
     margin-bottom: 0;

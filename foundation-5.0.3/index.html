@@ -9,17 +9,20 @@
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
-    <div class="row" class="header" class="small-12 columns">
+    <!-- <nav class="top-bar" data-topbar class="title-area"> -->
+    <div class="row nav-container small-12 columns">
+      <!-- <nav class="nav-collapse closed" style="-webkit-transition: max height 400ms; transition:maxheight 400ms; postion: relative;"></nav> -->
+      <div class="red-strip"></div>
       <div class="logo small-12 small-centered medium-4 medium-uncentered columns">
         <img src="logo.png" width="170" height="40">
       </div>
       <div class="nav-items small-12 medium-8 columns">
         
-          <div class="nav-item nav-home"><a href="#">HOME</a></div>
+          <div class="nav-item nav-home hide"><a href="#">HOME</a></div>
           <div class="nav-item nav-menu"><a href="#">LOCATION & MENU</a></div>
           <div class="nav-item nav-about"><a href="#">ABOUT</a></div>
           <div class="nav-item nav-reward"><a href="#">REWARDS</a></div>
-          <div class="nav-item nav-gfcards"><a href="#">GIFT CARDS</a></div>
+          <div class="nav-item nav-gfcards hide"><a href="#">GIFT CARDS</a></div>
         
       </div>
     </div>
@@ -65,9 +68,35 @@
     
     <div class="row">
       <div class="small-12 large-12 columns">
-      	<div class="panel">
-	        <img src="SaltySowBackground.jpg" class="small-12 columns">
-	       <div class="row">
+      	<div class="row">
+	        
+          <div class="home-photo">
+          <img src="SaltySowBackground.jpg" class="small-12 columns">
+          
+        
+         
+              <!-- <img src="chevrons-left.png" width="32" height="58">
+              Location & Menu
+              <img src="chevrons-right.png" width="32" height ="58"> -->
+            
+          
+	       <div class="row page-title small-12 columns">
+          <br>
+          <br>
+          <img src="chevrons-left.png" width="32" height="58"><a href="">Location & Menu</a>
+              <img src="chevrons-right.png" width="32" height ="58">
+              <div class="panel-medium" width="80%">
+                <div class="map-wrapper">
+                  <div class="map">
+                    <div id="map" style="postion: relative; background-color: rgb (229, 227, 223); overflow:hidden; -webkit-transform: translateZ(0)">
+                    <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=1917+Manor+Rd.+Austin,+TX+78722&amp;hl=en&amp;sll=33.59784,-111.978111&amp;sspn=0.022377,0.023239&amp;gl=us&amp;hnear=1917+Manor+Rd,+Austin,+Texas+78722&amp;t=m&amp;ie=UTF8&amp;hq=&amp;z=14&amp;ll=30.28379,-97.721358&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=1917+Manor+Rd.+Austin,+TX+78722&amp;hl=en&amp;sll=33.59784,-111.978111&amp;sspn=0.022377,0.023239&amp;gl=us&amp;hnear=1917+Manor+Rd,+Austin,+Texas+78722&amp;t=m&amp;ie=UTF8&amp;hq=&amp;z=14&amp;ll=30.28379,-97.721358&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+          
+
             <div class="small-12 columns">
               <ul class="bulletHours"> Hours
                 <li>Sunday - Thursday, 4:30pm - 10pm</li>
